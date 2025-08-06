@@ -1,0 +1,25 @@
+// ==UserScript==
+// @name         禁止陶片五颜六色
+// @namespace    http://tampermonkey.net/
+// @version      v1.0.0
+// @description  删除了陶片中“授予”的绿色和“撤销”的红色
+// @author       chenyuan3
+// @match        https://www.luogu.com.cn/judgement
+// @icon         https://www.luogu.com.cn/favicon.ico
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    let x = document.createElement('style');
+    x.innerHTML = `
+        .lcolor--red-3 {
+            color: rgb(35, 100, 100) !important;
+        }
+        .lcolor--green-3 {
+            color: rgb(35, 100, 100) !important;
+        }
+    `;
+    document.body.appendChild(x);
+    // Your code here...
+})();
