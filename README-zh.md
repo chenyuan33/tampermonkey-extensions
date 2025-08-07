@@ -6,9 +6,13 @@
 
 [源码](https://github.com/chenyuan33/tampermonkey-extensions/blob/main/%E7%A6%81%E6%AD%A2%E9%99%B6%E7%89%87%E4%BA%94%E9%A2%9C%E5%85%AD%E8%89%B2)
 
-功能：去掉新版陶片放逐中 $\color{52c41a}授予$ 和 $\color{e74c3c}撤销$ 的颜色。
+功能：去掉新版[陶片放逐](https://www.luogu.com.cn/judgement)和[安全设置](https://www.luogu.com.cn/user/setting/security)中 $\color{52c41a}授予$ 和 $\color{e74c3c}撤销$ 的颜色。
 
 ### 更新日志
+
+#### v1.0.2
+
+去掉[安全设置](https://www.luogu.com.cn/user/setting/security)里的陶片记录的五颜六色。
 
 #### v1.0.1
 
@@ -16,8 +20,4 @@
 
 #### v1.0.0
 
-去掉了新版陶片放逐中 $\color{52c41a}授予$ 和 $\color{e74c3c}撤销$ 的颜色。
-
-### 准备更新功能
-
-- 自动检查更新
+去掉了新版[陶片放逐](https://www.luogu.com.cn/judgement)中 $\color{52c41a}授予$ 和 $\color{e74c3c}撤销$ 的颜色。
